@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Long term Grubby Olive</title>
+    
+    <link rel="shortcut icon" type="image/x-icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;🖨&lt;/text&gt;&lt;/svg&gt;">
+
+    <style>@tailwind base;@tailwind components;@tailwind utilities;
+            /* These styles will all be purged */
+            /* ! tailwindcss v3.3.0 | MIT License | https://tailwindcss.com */
+            *,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e4e4e7}
+            ::after,::before{--tw-content:''}
+            html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:IBM Plex Sans;font-feature-settings:normal;font-variation-settings:normal}
+            body{margin:0;line-height:inherit}
+            hr{height:0;color:inherit;border-top-width:1px}
+            abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}
+            h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}
+            a{color:inherit;text-decoration:inherit}
+            b,strong{font-weight:bolder}
+            code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-size:1em}
+            small{font-size:80%}
+            sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+            sub{bottom:-.25em}
+            sup{top:-.5em}
+            table{text-indent:0;border-color:inherit;border-collapse:collapse}
+            button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}
+            button,select{text-transform:none}
+            [type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}
+            :-moz-focusring{outline:auto}
+            :-moz-ui-invalid{box-shadow:none}
+            progress{vertical-align:baseline}
+            ::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}
+            [type=search]{-webkit-appearance:textfield;outline-offset:-2px}
+            ::-webkit-search-decoration{-webkit-appearance:none}
+            ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+            summary{display:list-item}
+            blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}
+            fieldset{margin:0;padding:0}
+            legend{padding:0}
+            menu,ol,ul{list-style:none;margin:0;padding:0}
+            textarea{resize:vertical}
+            input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}
+            [role=button],button{cursor:pointer}
+            :disabled{cursor:default}
+            audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}
+            img,video{max-width:100%;height:auto}
+            [hidden]{display:none}
+            :root {
+                    --color-cyan-500: #6DDCFF;
+                    --color-purple-500: #7F60F9;
+                }
+            @font-face {
+                    font-family: IBM Plex Sans;
+                    font-weight: 400;
+                    src: url('https://cdn.rareblocks.xyz/fonts/IBMPlexSans/IBMPlexSans-Light.woff') format('woff');
+                }
+            @font-face {
+                    font-family: IBM Plex Sans;
+                    font-weight: 400;
+                    font-style: italic;
+                    src: url('https://cdn.rareblocks.xyz/fonts/IBMPlexSans/IBMPlexSans-LightItalic.woff') format('woff');
+                }
+            @font-face {
+                    font-family: IBM Plex Sans;
+                    font-weight: 500;
+                    src: url('https://cdn.rareblocks.xyz/fonts/IBMPlexSans/IBMPlexSans-Regular.woff') format('woff2');
+                }
+            @font-face {
+                    font-family: IBM Plex Sans;
+                    font-weight: 500;
+                    font-style: italic;
+                    src: url('https://cdn.rareblocks.xyz/fonts/IBMPlexSans/IBMPlexSans-Italic.woff') format('woff2');
+                }
+            @font-face {
+                    font-family: IBM Plex Sans;
+                    font-weight: 600;
+                    src: url('https://cdn.rareblocks.xyz/fonts/IBMPlexSans/IBMPlexSans-Medium.woff') format('woff');
+                }
+            @font-face {
+                    font-family: IBM Plex Sans;
+                    font-weight: 600;
+                    font-style: italic;
+                    src: url('https://cdn.rareblocks.xyz/fonts/IBMPlexSans/IBMPlexSans-MediumItalic.woff') format('woff');
+                }
+            @font-face {
+                    font-family: IBM Plex Sans;
+                    font-weight: 700;
+                    src: url('https://cdn.rareblocks.xyz/fonts/IBMPlexSans/IBMPlexSans-Semibold.woff') format('woff');
+                }
+            @font-face {
+                    font-family: IBM Plex Sans;
+                    font-weight: 700;
+                    font-style: italic;
+                    src: url('https://cdn.rareblocks.xyz/fonts/IBMPlexSans/IBMPlexSans-SemiboldItalic.woff') format('woff');
+                }
+            @font-face {
+                    font-family: IBM Plex Sans;
+                    font-weight: 800;
+                    src: url('https://cdn.rareblocks.xyz/fonts/IBMPlexSans/IBMPlexSans-Bold.woff') format('woff');
+                }
+            @font-face {
+                    font-family: IBM Plex Sans;
+                    font-weight: 800;
+                    font-style: italic;
+                    src: url('https://cdn.rareblocks.xyz/fonts/IBMPlexSans/IBMPlexSans-BoldItalic.woff') format('woff');
+                }
+            body {
+                    font-family: 'IBM Plex Sans';
+                }
+            *, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }
+            ::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }
+            ::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }
+            .fixed{position:fixed}
+            .absolute{position:absolute}
+            .relative{position:relative}
+            .-inset-px{inset:-1px}
+            .inset-x-0{left:0px;right:0px}
+            .bottom-0{bottom:0px}
+            .right-0{right:0px}
+            .left-0{left:0px}
+            .top-0{top:0px}
+            .z-50{z-index:50}
+            .mx-auto{margin-left:auto;margin-right:auto}
+            .my-5{margin-top:1.25rem;margin-bottom:1.25rem}
+            .mb-3{margin-bottom:0.75rem}
+            .mb-8{margin-bottom:2rem}
+            .mt-11{margin-top:2.75rem}
+            .mt-12{margin-top:3rem}
+            .mt-14{margin-top:3.5rem}
+            .mt-16{margin-top:4rem}
+            .mt-3{margin-top:0.75rem}
+            .mt-4{margin-top:1rem}
+            .mt-5{margin-top:1.25rem}
+            .mt-6{margin-top:1.5rem}
+            .mt-8{margin-top:2rem}
+            .box-content{box-sizing:content-box}
+            .block{display:block}
+            .flex{display:flex}
+            .inline-flex{display:inline-flex}
+            .grid{display:grid}
+            .hidden{display:none}
+            .h-10{height:2.5rem}
+            .h-4{height:1rem}
+            .h-full{height:100%}
+            .h-1{height:0.25rem}
+            .h-36{height:9rem}
+            .h-7{height:1.75rem}
+            .h-auto{height:auto}
+            .h-\[640px\]{height:640px}
+            .min-h-screen{min-height:100vh}
+            .w-10{width:2.5rem}
+            .w-4{width:1rem}
+            .w-full{width:100%}
+            .w-7{width:1.75rem}
+            .w-auto{width:auto}
+            .max-w-3xl{max-width:48rem}
+            .max-w-4xl{max-width:56rem}
+            .max-w-7xl{max-width:80rem}
+            .max-w-full{max-width:100%}
+            .max-w-lg{max-width:32rem}
+            .max-w-md{max-width:28rem}
+            .max-w-xl{max-width:36rem}
+            .flex-shrink-0{flex-shrink:0}
+            .-translate-y-full{--tw-translate-y:-100%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}
+            .translate-y-0{--tw-translate-y:0px;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}
+            .transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}
+            .cursor-pointer{cursor:pointer}
+            .grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}
+            .items-center{align-items:center}
+            .items-stretch{align-items:stretch}
+            .justify-start{justify-content:flex-start}
+            .justify-center{justify-content:center}
+            .justify-between{justify-content:space-between}
+            .gap-5{gap:1.25rem}
+            .gap-6{gap:1.5rem}
+            .-space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(-1rem * var(--tw-space-x-reverse));margin-left:calc(-1rem * calc(1 - var(--tw-space-x-reverse)))}
+            .overflow-hidden{overflow:hidden}
+            .overflow-x-hidden{overflow-x:hidden}
+            .rounded{border-radius:0.25rem}
+            .rounded-2xl{border-radius:1rem}
+            .rounded-full{border-radius:9999px}
+            .rounded-xl{border-radius:0.75rem}
+            .border{border-width:1px}
+            .border-gray-800{--tw-border-opacity:1;border-color:rgb(39 39 42 / var(--tw-border-opacity))}
+            .border-gray-200{--tw-border-opacity:1;border-color:rgb(228 228 231 / var(--tw-border-opacity))}
+            .border-gray-700{--tw-border-opacity:1;border-color:rgb(63 63 70 / var(--tw-border-opacity))}
+            .border-gray-900{--tw-border-opacity:1;border-color:rgb(24 24 27 / var(--tw-border-opacity))}
+            .border-transparent{border-color:transparent}
+            .bg-gray-900{--tw-bg-opacity:1;background-color:rgb(24 24 27 / var(--tw-bg-opacity))}
+            .bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}
+            .bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity))}
+            .bg-slate-800{--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity))}
+            .bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity))}
+            .bg-transparent{background-color:transparent}
+            .bg-none{background-image:none}
+            .bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}
+            .from-orange-400{--tw-gradient-from:#fb923c var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(251 146 60 / 0)  var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}
+            .from-orange-600{--tw-gradient-from:#ea580c var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(234 88 12 / 0)  var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}
+            .from-slate-700{--tw-gradient-from:#334155 var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(51 65 85 / 0)  var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}
+            .from-slate-900{--tw-gradient-from:#0f172a var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(15 23 42 / 0)  var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}
+            .from-yellow-600{--tw-gradient-from:#ca8a04 var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(202 138 4 / 0)  var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}
+            .via-slate-800{--tw-gradient-via-position: ;--tw-gradient-to:rgb(30 41 59 / 0)  var(--tw-gradient-to-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from), #1e293b var(--tw-gradient-via-position), var(--tw-gradient-to)}
+            .to-red-500{--tw-gradient-to:#ef4444 var(--tw-gradient-to-position);--tw-gradient-to-position: }
+            .to-red-600{--tw-gradient-to:#dc2626 var(--tw-gradient-to-position);--tw-gradient-to-position: }
+            .to-red-700{--tw-gradient-to:#b91c1c var(--tw-gradient-to-position);--tw-gradient-to-position: }
+            .to-red-800{--tw-gradient-to:#991b1b var(--tw-gradient-to-position);--tw-gradient-to-position: }
+            .to-slate-700{--tw-gradient-to:#334155 var(--tw-gradient-to-position);--tw-gradient-to-position: }
+            .to-slate-900{--tw-gradient-to:#0f172a var(--tw-gradient-to-position);--tw-gradient-to-position: }
+            .bg-cover{background-size:cover}
+            .bg-clip-text{-webkit-background-clip:text;background-clip:text}
+            .bg-left{background-position:left}
+            .bg-no-repeat{background-repeat:no-repeat}
+            .object-cover{object-fit:cover}
+            .p-6{padding:1.5rem}
+            .p-8{padding:2rem}
+            .px-12{padding-left:3rem;padding-right:3rem}
+            .px-4{padding-left:1rem;padding-right:1rem}
+            .px-5{padding-left:1.25rem;padding-right:1.25rem}
+            .px-6{padding-left:1.5rem;padding-right:1.5rem}
+            .px-8{padding-left:2rem;padding-right:2rem}
+            .py-12{padding-top:3rem;padding-bottom:3rem}
+            .py-2{padding-top:0.5rem;padding-bottom:0.5rem}
+            .py-3{padding-top:0.75rem;padding-bottom:0.75rem}
+            .py-4{padding-top:1rem;padding-bottom:1rem}
+            .pb-10{padding-bottom:2.5rem}
+            .pb-12{padding-bottom:3rem}
+            .pt-8{padding-top:2rem}
+            .text-center{text-align:center}
+            .text-2xl{font-size:1.5rem;line-height:2rem}
+            .text-3xl{font-size:1.875rem;line-height:2.25rem}
+            .text-base{font-size:1rem;line-height:1.5rem}
+            .text-lg{font-size:1.125rem;line-height:1.75rem}
+            .text-sm{font-size:0.875rem;line-height:1.25rem}
+            .text-xl{font-size:1.25rem;line-height:1.75rem}
+            .font-bold{font-weight:700}
+            .font-medium{font-weight:500}
+            .font-normal{font-weight:400}
+            .font-semibold{font-weight:600}
+            .uppercase{text-transform:uppercase}
+            .leading-7{line-height:1.75rem}
+            .leading-tight{line-height:1.25}
+            .tracking-tight{letter-spacing:-0.025em}
+            .tracking-widest{letter-spacing:0.1em}
+            .text-gray-200{--tw-text-opacity:1;color:rgb(228 228 231 / var(--tw-text-opacity))}
+            .text-red-500{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity))}
+            .text-gray-400{--tw-text-opacity:1;color:rgb(161 161 170 / var(--tw-text-opacity))}
+            .text-gray-600{--tw-text-opacity:1;color:rgb(82 82 91 / var(--tw-text-opacity))}
+            .text-gray-900{--tw-text-opacity:1;color:rgb(24 24 27 / var(--tw-text-opacity))}
+            .text-slate-200{--tw-text-opacity:1;color:rgb(226 232 240 / var(--tw-text-opacity))}
+            .text-transparent{color:transparent}
+            .text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}
+            .antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+            .opacity-100{opacity:1}
+            .opacity-70{opacity:0.7}
+            .shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}
+            .outline-none{outline:2px solid transparent;outline-offset:2px}
+            .blur-lg{--tw-blur:blur(16px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}
+            .transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}
+            .transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}
+            .duration-100{transition-duration:100ms}
+            .duration-150{transition-duration:150ms}
+            .duration-300{transition-duration:300ms}
+            .duration-1000{transition-duration:1000ms}
+            .duration-200{transition-duration:200ms}
+            .ease-out{transition-timing-function:cubic-bezier(0, 0, 0.2, 1)}
+            .ease-in{transition-timing-function:cubic-bezier(0.4, 0, 1, 1)}
+
+            /* These styles will be purged */
+            .hover\:-translate-y-1:hover{--tw-translate-y:-0.25rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}
+            .hover\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgb(39 39 42 / var(--tw-bg-opacity))}
+            .hover\:bg-gray-600:hover{--tw-bg-opacity:1;background-color:rgb(82 82 91 / var(--tw-bg-opacity))}
+            .hover\:bg-gray-900:hover{--tw-bg-opacity:1;background-color:rgb(24 24 27 / var(--tw-bg-opacity))}
+            .hover\:bg-gradient-to-r:hover{background-image:linear-gradient(to right, var(--tw-gradient-stops))}
+            .hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}
+            .hover\:text-opacity-50:hover{--tw-text-opacity:0.5}
+            .focus\:bg-gray-900:focus{--tw-bg-opacity:1;background-color:rgb(24 24 27 / var(--tw-bg-opacity))}
+            .focus\:text-white:focus{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}
+            .focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}
+            .focus\:ring-1:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}
+            .focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}
+            .focus\:ring-gray-900:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(24 24 27 / var(--tw-ring-opacity))}
+            .focus\:ring-offset-2:focus{--tw-ring-offset-width:2px}
+            .group:hover .group-hover\:-inset-1{inset:-0.25rem}
+            .group:hover .group-hover\:scale-110{--tw-scale-x:1.1;--tw-scale-y:1.1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}
+            .group:hover .group-hover\:text-gray-200{--tw-text-opacity:1;color:rgb(228 228 231 / var(--tw-text-opacity))}
+            .group:hover .group-hover\:opacity-100{opacity:1}
+            .group:hover .group-hover\:duration-200{transition-duration:200ms}
+            @media (min-width: 640px){
+.sm\:mt-16{margin-top:4rem}
+.sm\:mt-8{margin-top:2rem}
+.sm\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}
+.sm\:gap-6{gap:1.5rem}
+.sm\:px-12{padding-left:3rem;padding-right:3rem}
+.sm\:px-32{padding-left:8rem;padding-right:8rem}
+.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}
+.sm\:px-9{padding-left:2.25rem;padding-right:2.25rem}
+.sm\:py-10{padding-top:2.5rem;padding-bottom:2.5rem}
+.sm\:py-16{padding-top:4rem;padding-bottom:4rem}
+.sm\:pb-12{padding-bottom:3rem}
+.sm\:pt-14{padding-top:3.5rem}
+.sm\:text-3xl{font-size:1.875rem;line-height:2.25rem}
+.sm\:text-4xl{font-size:2.25rem;line-height:2.5rem}
+.sm\:leading-tight{line-height:1.25}}
+            @media (min-width: 768px){
+.md\:px-32{padding-left:8rem;padding-right:8rem}
+.md\:py-6{padding-top:1.5rem;padding-bottom:1.5rem}}
+            @media (min-width: 1024px){
+.lg\:absolute{position:absolute}
+.lg\:inset-y-0{top:0px;bottom:0px}
+.lg\:left-1\/2{left:50%}
+.lg\:mt-20{margin-top:5rem}
+.lg\:mt-6{margin-top:1.5rem}
+.lg\:flex{display:flex}
+.lg\:hidden{display:none}
+.lg\:max-w-2xl{max-width:42rem}
+.lg\:max-w-none{max-width:none}
+.lg\:-translate-x-1\/2{--tw-translate-x:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}
+.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}
+.lg\:items-center{align-items:center}
+.lg\:justify-center{justify-content:center}
+.lg\:gap-10{gap:2.5rem}
+.lg\:space-x-10 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2.5rem * var(--tw-space-x-reverse));margin-left:calc(2.5rem * calc(1 - var(--tw-space-x-reverse)))}
+.lg\:space-x-12 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(3rem * var(--tw-space-x-reverse));margin-left:calc(3rem * calc(1 - var(--tw-space-x-reverse)))}
+.lg\:px-24{padding-left:6rem;padding-right:6rem}
+.lg\:px-8{padding-left:2rem;padding-right:2rem}
+.lg\:py-20{padding-top:5rem;padding-bottom:5rem}
+.lg\:pb-12{padding-bottom:3rem}
+.lg\:pt-20{padding-top:5rem}
+.lg\:text-4xl{font-size:2.25rem;line-height:2.5rem}
+.lg\:text-5xl{font-size:3rem;line-height:1}
+.lg\:text-6xl{font-size:3.75rem;line-height:1}
+.lg\:text-lg{font-size:1.125rem;line-height:1.75rem}
+.lg\:leading-8{line-height:2rem}
+.lg\:leading-tight{line-height:1.25}}
+            @media (min-width: 1280px){
+.xl\:gap-6{gap:1.5rem}
+.xl\:px-12{padding-left:3rem;padding-right:3rem}
+.xl\:px-24{padding-left:6rem;padding-right:6rem}
+.xl\:px-48{padding-left:12rem;padding-right:12rem}
+.xl\:py-24{padding-top:6rem;padding-bottom:6rem}
+.xl\:py-8{padding-top:2rem;padding-bottom:2rem}
+.xl\:pb-0{padding-bottom:0px}
+.xl\:pb-24{padding-bottom:6rem}
+.xl\:text-3xl{font-size:1.875rem;line-height:2.25rem}
+.xl\:text-6xl{font-size:3.75rem;line-height:1}
+.xl\:text-xl{font-size:1.25rem;line-height:1.75rem}}
+            @media (min-width: 1536px){
+.\32xl\:text-transparent{color:transparent}}
+        </style>    <link rel="stylesheet" href="">
+</head>
+<body>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://unpkg.com/alpinejs" defer=""></script>
+        <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
+        <style type="text/tailwindcss">
+            /* These styles will all be purged */
+            @tailwind base;
+            @tailwind components;
+            @tailwind utilities;
+
+            /* These styles will be purged */
+
+            @layer base {
+                :root {
+                    --color-cyan-500: theme('colors.cyan.500');
+                    --color-purple-500: theme('colors.purple.500');
+                }
+                @font-face {
+                    font-family: IBM Plex Sans;
+                    font-weight: 400;
+                    src: url('https://cdn.rareblocks.xyz/fonts/IBMPlexSans/IBMPlexSans-Light.woff') format('woff');
+                }
+                @font-face {
+                    font-family: IBM Plex Sans;
+                    font-weight: 400;
+                    font-style: italic;
+                    src: url('https://cdn.rareblocks.xyz/fonts/IBMPlexSans/IBMPlexSans-LightItalic.woff') format('woff');
+                }
+
+                @font-face {
+                    font-family: IBM Plex Sans;
+                    font-weight: 500;
+                    src: url('https://cdn.rareblocks.xyz/fonts/IBMPlexSans/IBMPlexSans-Regular.woff') format('woff2');
+                }
+                @font-face {
+                    font-family: IBM Plex Sans;
+                    font-weight: 500;
+                    font-style: italic;
+                    src: url('https://cdn.rareblocks.xyz/fonts/IBMPlexSans/IBMPlexSans-Italic.woff') format('woff2');
+                }
+                @font-face {
+                    font-family: IBM Plex Sans;
+                    font-weight: 600;
+                    src: url('https://cdn.rareblocks.xyz/fonts/IBMPlexSans/IBMPlexSans-Medium.woff') format('woff');
+                }
+                @font-face {
+                    font-family: IBM Plex Sans;
+                    font-weight: 600;
+                    font-style: italic;
+                    src: url('https://cdn.rareblocks.xyz/fonts/IBMPlexSans/IBMPlexSans-MediumItalic.woff') format('woff');
+                }
+                @font-face {
+                    font-family: IBM Plex Sans;
+                    font-weight: 700;
+                    src: url('https://cdn.rareblocks.xyz/fonts/IBMPlexSans/IBMPlexSans-Semibold.woff') format('woff');
+                }
+                @font-face {
+                    font-family: IBM Plex Sans;
+                    font-weight: 700;
+                    font-style: italic;
+                    src: url('https://cdn.rareblocks.xyz/fonts/IBMPlexSans/IBMPlexSans-SemiboldItalic.woff') format('woff');
+                }
+                @font-face {
+                    font-family: IBM Plex Sans;
+                    font-weight: 800;
+                    src: url('https://cdn.rareblocks.xyz/fonts/IBMPlexSans/IBMPlexSans-Bold.woff') format('woff');
+                }
+                @font-face {
+                    font-family: IBM Plex Sans;
+                    font-weight: 800;
+                    font-style: italic;
+                    src: url('https://cdn.rareblocks.xyz/fonts/IBMPlexSans/IBMPlexSans-BoldItalic.woff') format('woff');
+                }
+                body {
+                    font-family: 'IBM Plex Sans';
+                }
+                .font-sans {
+                    font-family: 'IBM Plex Sans';
+                }
+            }
+            @layer components {
+            }
+            @layer utilities {
+            }
+        </style>
+        <script>
+            tailwind.config = {
+                theme: {
+                    fontFamily: {
+                        sans: ['IBM Plex Sans'],
+                    },
+                    extend: {
+                        colors: {
+                            gray: {
+                                50: '#fafafa',
+                                100: '#f4f4f5',
+                                200: '#e4e4e7',
+                                300: '#d4d4d8',
+                                400: '#a1a1aa',
+                                500: '#71717a',
+                                600: '#52525b',
+                                700: '#3f3f46',
+                                800: '#27272a',
+                                900: '#18181b',
+                            },
+                            base: {
+                                900: '#090914',
+                            },
+                            cyan: {
+                                500: '#6DDCFF',
+                            },
+                            purple: {
+                                500: '#7F60F9',
+                            },
+                        },
+                    },
+                },
+            }
+        </script><section class="h-auto bg-white">
+    
+</section><section class="h-auto bg-white">
+<section class="bg-slate-900">
+<div class="overflow-x-hidden w-full h-full bg-no-repeat bg-cover bg-left" style="background-image: url('https://storage.googleapis.com/msgsndr/MNYkt2HWgyTDg97eXWQL/media/6409292b0283f1243591fb40.webp');   alt=" instructor="" in="" front="" of="" class"="">
+    <header class="relative py-4 md:py-6">
+        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div class="relative flex items-center justify-between">
+                <div class="flex-shrink-0">
+                    <a href="#" title="" class="flex rounded outline-none focus:ring-1 focus:ring-gray-900 focus:ring-offset-2">
+                        <img class="w-auto h-36" src="https://storage.googleapis.com/msgsndr/MNYkt2HWgyTDg97eXWQL/media/6408cffc0283f18d2b91bacd.svg+xml" alt="">
+                    </a>
+                </div>
+
+                <div class="flex lg:hidden">
+                    <button type="button" class="text-gray-900">
+                        <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="hidden lg:absolute lg:inset-y-0 lg:flex lg:items-center lg:justify-center lg:space-x-12 lg:-translate-x-1/2 lg:left-1/2">
+                    <a href="#" title="" class="text-base font-medium text-slate-200 transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"> Home </a>
+
+                    <a href="/medical-course" title="" class="text-base font-medium text-slate-200 transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"> Medical Course </a>
+
+                    <a href="/firearms-course" title="" class="text-base font-medium text-slate-200 transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"> Firearms Training </a>
+                </div>
+
+                <div class="hidden lg:flex lg:items-center lg:justify-center lg:space-x-10">
+
+
+                    <a href="#" title="" class="px-5 py-2 text-base font-semibold leading-7 text-slate-200 transition-all duration-200 bg-transparent border border-gray-900 rounded-xl font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-900 hover:text-white focus:bg-gray-900 focus:text-white" role="button">
+                        Enroll in Course
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative py-12 sm:py-16 lg:pt-20 xl:pb-0">
+        <div class="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+            <div class="max-w-3xl mx-auto text-center">
+                <p class="inline-flex text-white px-4 py-2 text-base text-slate-200 border border-gray-200 rounded-full font-pj">BE PREPARED FOR EMERGENCIES:</p>
+          
+
+
+                <h1 class="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-600 mt-5 text-3xl md:px-32 lg:px-24 xl:px-24 font-bold leading-tight text-gray-900 sm:text-3xl sm:leading-tight lg:text-4xl lg:leading-tight font-pj 2xl:text-transparent">Get Certified with our BLS, CPR &amp; First Aid Course</h1>
+
+                <div class="relative inline-flex mt-16 group">
+                    <div class="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-slate-700 via-slate-800 to-slate-900 rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
+
+                    <a href="#" title="" class="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-gradient-to-r from-orange-400 to-red-700 font-pj rounded-xl hover:bg-gradient-to-r from-orange-600 to-red-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900" role="button">
+                        Enroll in Course
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        
+        
+          <div class="flex justify-center items-center px-12 lg:px-24 xl:px-48"><img class="max-w-full w-auto h-auto mt-4 md:px-32 sm:px-32" src="https://storage.googleapis.com/msgsndr/MNYkt2HWgyTDg97eXWQL/media/6408fd62f174f368f2633c34.webp" alt=""></div>
+          <div class="px-6"></div>
+          
+</section></div>
+    </section>
+
+</section><section class="h-auto bg-white">
+    <section class="py-12 bg-gradient-to-r from-slate-900 to-slate-700 sm:py-16 lg:py-20 xl:py-8 tails-relative">
+      <div class="px-4 mx-auto mb-8 sm:px-6 lg:px-8 max-w-7xl">
+        <div class="max-w-lg mx-auto text-center lg:max-w-2xl">
+          <h2 class="text-3xl font-normal text-white sm:mt-8 sm:text-4xl lg:text-5xl xl:text-6xl">
+            Be Prepared for Emergencies
+          </h2>
+          <p class="mt-6 text-lg font-normal text-gray-400">
+            Everyone should be prepared to step in when a lifesaving situation
+            arises. <br>
+            Every life counts.
+          </p>
+        </div>
+
+        <div class="grid max-w-md grid-cols-1 gap-6 mx-auto mt-12 text-center lg:max-w-none lg:grid-cols-3 sm:mt-16 lg:mt-20">
+          <div class="relative overflow-hidden bg-slate-900 rounded-2xl">
+            <div class="px-6 pt-8 pb-12 sm:pb-12 lg:pb-12 xl:pb-24 sm:px-12 lg:px-8 xl:px-12 sm:pt-14">
+              <h3 class="text-sm font-normal tracking-widest uppercase">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 to-red-500">
+                  respond effectively
+                </span>
+              </h3>
+              <p class="mt-3 text-2xl font-normal text-white xl:text-3xl">
+                Life-Saving Skills
+              </p>
+              <p class="mt-4 text-base font-normal text-gray-400">
+                With proper Basic Life Saving (BLS), Cardio Pulmonary
+                Resuscitation (CPR) &amp; First Aid Training, you will have the
+                necessary knowledge and skills to respond effectively in
+                emergencies.
+              </p>
+            </div>
+
+          </div>
+
+          <div class="relative overflow-hidden bg-slate-900 rounded-2xl">
+            <div class="px-6 pt-8 pb-12 sm:pb-12 lg:pb-12 xl:pb-24 sm:px-12 lg:px-8 xl:px-12 sm:pt-14">
+              <h3 class="text-sm font-normal tracking-widest uppercase">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 to-red-500">
+                  Practical
+                </span>
+              </h3>
+              <p class="mt-3 text-2xl font-normal text-white xl:text-3xl">
+                Hands-On Training
+              </p>
+              <p class="mt-4 text-base font-normal text-gray-400">
+                With hands-on training and practical scenarios, you will develop
+                the confidence and competence needed to respond in high-pressure
+                emergency situations.
+              </p>
+            </div>
+
+          </div>
+
+          <div class="relative overflow-hidden bg-slate-900 rounded-2xl">
+            <div class="px-6 pt-8 pb-12 sm:pb-12 lg:pb-12 xl:pb-24 sm:px-12 lg:px-8 xl:px-12 sm:pt-14">
+              <h3 class="text-sm font-normal tracking-widest uppercase">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 to-red-500">
+                  Get Certified
+                </span>
+              </h3>
+              <p class="mt-3 text-2xl font-normal text-white xl:text-3xl">
+                Proof of Training
+              </p>
+              <p class="mt-4 text-base font-normal text-gray-400">
+                With a certificate of completion, you will demonstrate your
+                commitment to safety and preparedness to potential employers or
+                organizations that require certification.
+              </p>
+            </div>
+
+            <div class="absolute inset-x-0 bottom-0 flex items-center justify-center">
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="tails-hover-element">section</div></section>
+
+</section><section class="py-12 bg-slate-900 sm:py-16 lg:py-20 xl:py-24">
+        <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+            <div class="max-w-xl mx-auto text-center">
+                <h2 class="text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-6xl">Try Before You Buy</h2>
+                <p class="mt-4 text-base font-normal leading-7 text-gray-400 lg:text-lg lg:mt-6 lg:leading-8">At Summit MATC you can try before you buy. <br>Here are some firearms that are available.</p>
+            </div>
+    
+            <div class="grid max-w-md grid-cols-1 gap-5 mx-auto mt-12 xl:gap-6 lg:grid-cols-3 lg:max-w-none sm:mt-16">
+                <div class="p-6 transition-all duration-200 bg-slate-800 group rounded-2xl hover:-translate-y-1">
+                    <a href="#" title="" class="block overflow-hidden aspect-w-16 aspect-h-9 rounded-xl">
+                        <img class="object-cover w-full h-full transition-all duration-200 transform group-hover:scale-110" src="https://storage.googleapis.com/msgsndr/MNYkt2HWgyTDg97eXWQL/media/64238763a762d3278061fd28.webp" alt="">
+                    </a>
+    
+                    <div class="flex items-center justify-between mt-6">
+                        <p class="text-sm font-medium text-gray-400">
+                            <a href="#" title="" class=""> Ruger </a>
+                        </p>
+    
+                        <p class="text-sm font-medium text-gray-400">9mm</p>
+                    </div>
+    
+                    <hr class="my-5 border-gray-700">
+    
+                    <h3 class="text-lg font-semibold text-white xl:text-xl group-hover:text-gray-200">
+                        <a href="" title="" class="">9mm</a>
+                    </h3>
+                </div>
+                
+    
+                <div class="p-6 transition-all duration-200 bg-slate-800 group rounded-2xl hover:-translate-y-1">
+                    <a href="" title="" class="block overflow-hidden aspect-w-16 aspect-h-9 rounded-xl">
+                        <img class="object-cover w-full h-full transition-all duration-200 transform group-hover:scale-110" src="https://storage.googleapis.com/msgsndr/MNYkt2HWgyTDg97eXWQL/media/64238763a762d3795661fd29.webp" alt="">
+                    </a>
+    
+                    <div class="flex items-center justify-between mt-6">
+                        <p class="text-sm font-medium text-gray-400">
+                            <a href="" title="" class=""> Canik </a>
+                        </p>
+    
+                        <p class="text-sm font-medium text-gray-400">9mm</p>
+                    </div>
+    
+                    <hr class="my-5 border-gray-700">
+    
+                    <h3 class="text-lg font-semibold text-white xl:text-xl group-hover:text-gray-200">
+                        <a href="" title="" class=""> 9mm </a>
+                    </h3>
+                </div>
+    
+                <div class="p-6 transition-all duration-200 bg-slate-800 group rounded-2xl hover:-translate-y-1">
+                    <a href="" title="" class="block overflow-hidden aspect-w-16 aspect-h-9 rounded-xl">
+                        <img class="object-cover w-full h-full transition-all duration-200 transform group-hover:scale-110" src="https://storage.googleapis.com/msgsndr/MNYkt2HWgyTDg97eXWQL/media/642387635cd63e17100d834d.webp" alt="">
+                    </a>
+    
+                    <div class="flex items-center justify-between mt-6">
+                        <p class="text-sm font-medium text-gray-400">
+                            <a href="" title="" class=""> Springfield </a>
+                        </p>
+    
+                        <p class="text-sm font-medium text-gray-400">9mm</p>
+                    </div>
+    
+                    <hr class="my-5 border-gray-700">
+    
+                    <h3 class="text-lg font-semibold text-white xl:text-xl group-hover:text-gray-200">
+                        <a href="" title="" class=""> 9mm </a>
+                    </h3>
+                </div>
+            </div>
+            <div class="grid max-w-md grid-cols-1 gap-5 mx-auto mt-12 xl:gap-6 lg:grid-cols-3 lg:max-w-none sm:mt-16">
+                <div class="p-6 transition-all duration-200 bg-slate-800 group rounded-2xl hover:-translate-y-1">
+                    <a href="#" title="" class="block overflow-hidden aspect-w-16 aspect-h-9 rounded-xl">
+                        <img class="object-cover w-full h-full transition-all duration-200 transform group-hover:scale-110" src="https://storage.googleapis.com/msgsndr/MNYkt2HWgyTDg97eXWQL/media/642387638d0e869031d3ab06.webp" alt="">
+                    </a>
+    
+                    <div class="flex items-center justify-between mt-6">
+                        <p class="text-sm font-medium text-gray-400">
+                            <a href="#" title="" class=""> Glock </a>
+                        </p>
+    
+                        <p class="text-sm font-medium text-gray-400">TP9 SA</p>
+                    </div>
+    
+                    <hr class="my-5 border-gray-700">
+    
+                    <h3 class="text-lg font-semibold text-white xl:text-xl group-hover:text-gray-200">
+                        <a href="" title="" class="">9mm</a>
+                    </h3>
+                </div>
+    
+                <div class="p-6 transition-all duration-200 bg-slate-800 group rounded-2xl hover:-translate-y-1">
+                    <a href="" title="" class="block overflow-hidden aspect-w-16 aspect-h-9 rounded-xl">
+                        <img class="object-cover w-full h-full transition-all duration-200 transform group-hover:scale-110" src="https://storage.googleapis.com/msgsndr/MNYkt2HWgyTDg97eXWQL/media/642387635cd63e728a0d834c.webp" alt="">
+                    </a>
+    
+                    <div class="flex items-center justify-between mt-6">
+                        <p class="text-sm font-medium text-gray-400">
+                            <a href="" title="" class=""> Sig Sauer </a>
+                        </p>
+    
+                        <p class="text-sm font-medium text-gray-400">9mm</p>
+                    </div>
+    
+                    <hr class="my-5 border-gray-700">
+    
+                    <h3 class="text-lg font-semibold text-white xl:text-xl group-hover:text-gray-200">
+                        <a href="" title="" class=""> 9mm </a>
+                    </h3>
+                </div>
+    
+                <div class="p-6 transition-all duration-200 bg-slate-800 group rounded-2xl hover:-translate-y-1">
+                    <a href="" title="" class="block overflow-hidden aspect-w-16 aspect-h-9 rounded-xl">
+                        <img class="object-cover w-full h-full transition-all duration-200 transform group-hover:scale-110" src="https://storage.googleapis.com/msgsndr/MNYkt2HWgyTDg97eXWQL/media/642387638d0e86a22ed3ab05.webp" alt="">
+                    </a>
+    
+                    <div class="flex items-center justify-between mt-6">
+                        <p class="text-sm font-medium text-gray-400">
+                            <a href="" title="" class=""> HK </a>
+                        </p>
+    
+                        <p class="text-sm font-medium text-gray-400">9mm</p>
+                    </div>
+    
+                    <hr class="my-5 border-gray-700">
+    
+                    <h3 class="text-lg font-semibold text-white xl:text-xl group-hover:text-gray-200">
+                        <a href="" title="" class=""> 9mm </a>
+                    </h3>
+                </div>
+            </div>
+            <div class="grid max-w-md grid-cols-1 gap-5 mx-auto mt-12 xl:gap-6 lg:grid-cols-3 lg:max-w-none sm:mt-16">
+                <div class="p-6 transition-all duration-200 bg-slate-800 group rounded-2xl hover:-translate-y-1">
+                    <a href="#" title="" class="block overflow-hidden aspect-w-16 aspect-h-9 rounded-xl">
+                        <img class="object-cover w-full h-full transition-all duration-200 transform group-hover:scale-110" src="https://storage.googleapis.com/msgsndr/MNYkt2HWgyTDg97eXWQL/media/642387638d0e861aefd3ab07.webp" alt="">
+                    </a>
+    
+                    <div class="flex items-center justify-between mt-6">
+                        <p class="text-sm font-medium text-gray-400">
+                            <a href="#" title="" class=""> Smith &amp; Wesson M&amp;P </a>
+                        </p>
+    
+                        <p class="text-sm font-medium text-gray-400">TP9 SA</p>
+                    </div>
+    
+                    <hr class="my-5 border-gray-700">
+    
+                    <h3 class="text-lg font-semibold text-white xl:text-xl group-hover:text-gray-200">
+                        <a href="" title="" class="">9mm</a>
+                    </h3>
+                </div>
+    
+                <div class="p-6 transition-all duration-200 bg-slate-800 group rounded-2xl hover:-translate-y-1">
+                    <a href="" title="" class="block overflow-hidden aspect-w-16 aspect-h-9 rounded-xl">
+                        <img class="object-cover w-full h-full transition-all duration-200 transform group-hover:scale-110" src="https://storage.googleapis.com/msgsndr/MNYkt2HWgyTDg97eXWQL/media/64238763a762d3200361fd2a.webp" alt="">
+                    </a>
+    
+                    <div class="flex items-center justify-between mt-6">
+                        <p class="text-sm font-medium text-gray-400">
+                            <a href="" title="" class=""> Smith &amp; Wesson M&amp;P </a>
+                        </p>
+    
+                        <p class="text-sm font-medium text-gray-400">9mm</p>
+                    </div>
+    
+                    <hr class="my-5 border-gray-700">
+    
+                    <h3 class="text-lg font-semibold text-white xl:text-xl group-hover:text-gray-200">
+                        <a href="" title="" class=""> 9mm </a>
+                    </h3>
+                </div>
+    
+                <div class="p-6 transition-all duration-200 bg-slate-800 group rounded-2xl hover:-translate-y-1">
+                    <a href="" title="" class="block overflow-hidden aspect-w-16 aspect-h-9 rounded-xl">
+                        <img class="object-cover w-full h-full transition-all duration-200 transform group-hover:scale-110" src="https://storage.googleapis.com/msgsndr/MNYkt2HWgyTDg97eXWQL/media/642387635cd63e897a0d834e.webp" alt="">
+                    </a>
+    
+                    <div class="flex items-center justify-between mt-6">
+                        <p class="text-sm font-medium text-gray-400">
+                            <a href="" title="" class=""> Glock </a>
+                        </p>
+    
+                        <p class="text-sm font-medium text-gray-400">9mm</p>
+                    </div>
+    
+                    <hr class="my-5 border-gray-700">
+    
+                    <h3 class="text-lg font-semibold text-white xl:text-xl group-hover:text-gray-200">
+                        <a href="" title="" class=""> 9mm </a>
+                    </h3>
+                </div>
+            </div>
+            <div class="grid max-w-md grid-cols-1 gap-5 mx-auto mt-12 xl:gap-6 lg:grid-cols-3 lg:max-w-none sm:mt-16">
+                <div class="p-6 transition-all duration-200 bg-slate-800 group rounded-2xl hover:-translate-y-1">
+                    <a href="#" title="" class="block overflow-hidden aspect-w-16 aspect-h-9 rounded-xl">
+                        <img class="object-cover w-full h-full transition-all duration-200 transform group-hover:scale-110" src="https://storage.googleapis.com/msgsndr/MNYkt2HWgyTDg97eXWQL/media/6423867b8d0e86a34cd3aabd.webp" alt="">
+                    </a>
+    
+                    <div class="flex items-center justify-between mt-6">
+                        <p class="text-sm font-medium text-gray-400">
+                            <a href="#" title="" class=""> Smith &amp; Wesson M&amp;P </a>
+                        </p>
+    
+                        <p class="text-sm font-medium text-gray-400">TP9 SA</p>
+                    </div>
+    
+                    <hr class="my-5 border-gray-700">
+    
+                    <h3 class="text-lg font-semibold text-white xl:text-xl group-hover:text-gray-200">
+                        <a href="" title="" class="">9mm</a>
+                    </h3>
+                </div>
+    
+                <div class="p-6 transition-all duration-200 bg-slate-800 group rounded-2xl hover:-translate-y-1">
+                    <a href="" title="" class="block overflow-hidden aspect-w-16 aspect-h-9 rounded-xl">
+                        <img class="object-cover w-full h-full transition-all duration-200 transform group-hover:scale-110" src="https://storage.googleapis.com/msgsndr/MNYkt2HWgyTDg97eXWQL/media/6423867ba762d3483261fc4a.webp" alt="">
+                    </a>
+    
+                    <div class="flex items-center justify-between mt-6">
+                        <p class="text-sm font-medium text-gray-400">
+                            <a href="" title="" class=""> Ruger LCR 9mm Revolver </a>
+                        </p>
+    
+                        <p class="text-sm font-medium text-gray-400">9mm</p>
+                    </div>
+    
+                    <hr class="my-5 border-gray-700">
+    
+                    <h3 class="text-lg font-semibold text-white xl:text-xl group-hover:text-gray-200">
+                        <a href="" title="" class=""> 9mm </a>
+                    </h3>
+                </div>
+    
+                <div class="p-6 transition-all duration-200 bg-slate-800 group rounded-2xl hover:-translate-y-1">
+                    <a href="" title="" class="block overflow-hidden aspect-w-16 aspect-h-9 rounded-xl">
+                        <img class="object-cover w-full h-full transition-all duration-200 transform group-hover:scale-110" src="https://storage.googleapis.com/msgsndr/MNYkt2HWgyTDg97eXWQL/media/6423867ba762d352b661fc4b.webp" alt="">
+                    </a>
+    
+                    <div class="flex items-center justify-between mt-6">
+                        <p class="text-sm font-medium text-gray-400">
+                            <a href="" title="" class=""> Smith &amp; Wesson Model 642 Pro Series </a>
+                        </p>
+    
+                        <p class="text-sm font-medium text-gray-400">9mm</p>
+                    </div>
+    
+                    <hr class="my-5 border-gray-700">
+    
+                    <h3 class="text-lg font-semibold text-white xl:text-xl group-hover:text-gray-200">
+                        <a href="" title="" class=""> 9mm </a>
+                    </h3>
+                </div>
+            </div>
+            </div>
+        
+    </section><section class="h-auto bg-white">
+    <div class="relative mt-14">
+
+
+             <section class="h-auto bg-white">
+    <div class="relative mt-14">
+
+
+            <div class="relative grid max-w-4xl grid-cols-1 gap-5 mx-auto sm:gap-6 lg:gap-10 sm:grid-cols-2">
+                <div class="bg-white shadow-xl rounded-xl">
+                    <div class="p-8 sm:py-10 sm:px-9">
+                        <div class="flex justify-start flex-shrink-0 -space-x-4 overflow-hidden">
+                            <img src="https://storage.googleapis.com/msgsndr/MNYkt2HWgyTDg97eXWQL/media/642386885cd63e1cb50d82c9.webp" alt="" class="">
+                            
+                        </div>
+
+                        <h3 class="text-xl font-bold text-gray-900 font-pj mt-11">First Aid Adults</h3>
+                        <p class="mt-3 text-base font-normal leading-7 text-gray-600">ENROLL IN COURSE</p>
+
+                        <a href="#" title="" class="inline-flex items-center justify-center px-8 py-3 mt-8 text-base font-bold text-white transition-all duration-200 bg-gray-900 border border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 font-pj hover:bg-gray-600 rounded-xl" role="button">$75 Per Student</a>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-xl rounded-xl">
+                    <div class="p-8 sm:py-10 sm:px-9">
+                        <div class="flex justify-start flex-shrink-0 -space-x-4 overflow-hidden">
+                            <img src="https://storage.googleapis.com/msgsndr/MNYkt2HWgyTDg97eXWQL/media/64135e8876ddbcf96465e40c.webp" alt="" class="">
+                          </div>
+
+                        <h3 class="text-xl font-bold text-gray-900 font-pj mt-11"></h3><h3 class="text-xl font-bold text-gray-900 font-pj mt-11" style="--tw-translate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness:proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgb(59 130 246 / 0.5); --tw-ring-offset-shadow:0 0 #0000; --tw-ring-shadow:0 0 #0000; --tw-shadow:0 0 #0000; --tw-shadow-colored:0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-border-spacing-x:0; --tw-border-spacing-y:0; --tw-transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)); --tw-border-opacity: 1; --tw-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow); --tw-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia); --tw-text-opacity:1;">First Aid CPR Adults, Infants, And Children</h3>
+                        <p class="mt-3 text-base font-normal leading-7 text-gray-600">ENROLL IN COURSE</p><a href="#" title="" class="inline-flex items-center justify-center px-8 py-3 mt-8 text-base font-bold text-white transition-all duration-200 bg-gray-900 border border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 font-pj hover:bg-gray-600 rounded-xl" role="button">$85 Per Student</a>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+        </div>
+    <div class="relative mt-14">
+
+
+            <div class="relative grid max-w-4xl grid-cols-1 gap-5 mx-auto sm:gap-6 lg:gap-10 sm:grid-cols-2">
+                <div class="bg-white shadow-xl rounded-xl">
+                    <div class="p-8 sm:py-10 sm:px-9">
+                        <div class="flex justify-start flex-shrink-0 -space-x-4 overflow-hidden">
+                            <img src="https://storage.googleapis.com/msgsndr/MNYkt2HWgyTDg97eXWQL/media/642386885cd63e1cb50d82c9.webp" alt="" class="">
+                            
+                        </div>
+
+                        <h3 class="text-xl font-bold text-gray-900 font-pj mt-11">BLS, BLS Adults, Infants, And Children </h3>
+                        <p class="mt-3 text-base font-normal leading-7 text-gray-600">ENROLL IN COURSE</p>
+
+                        <a href="#" title="" class="inline-flex items-center justify-center px-8 py-3 mt-8 text-base font-bold text-white transition-all duration-200 bg-gray-900 border border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 font-pj hover:bg-gray-600 rounded-xl" role="button">$110 Per Student</a>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-xl rounded-xl">
+                    <div class="p-8 sm:py-10 sm:px-9">
+                        <div class="flex justify-start flex-shrink-0 -space-x-4 overflow-hidden">
+                            <img src="https://storage.googleapis.com/msgsndr/MNYkt2HWgyTDg97eXWQL/media/64135e8876ddbcf96465e40c.webp" alt="" class="">
+                          </div>
+
+                        <h3 class="text-xl font-bold text-gray-900 font-pj mt-11"></h3><h3 class="text-xl font-bold text-gray-900 font-pj mt-11" style="--tw-translate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness:proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgb(59 130 246 / 0.5); --tw-ring-offset-shadow:0 0 #0000; --tw-ring-shadow:0 0 #0000; --tw-shadow:0 0 #0000; --tw-shadow-colored:0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-border-spacing-x:0; --tw-border-spacing-y:0; --tw-transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)); --tw-border-opacity: 1; --tw-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow); --tw-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia); --tw-text-opacity:1;">BLS First Aid
+</h3>
+                        <p class="mt-3 text-base font-normal leading-7 text-gray-600">ENROLL IN COURSE</p><a href="#" title="" class="inline-flex items-center justify-center px-8 py-3 mt-8 text-base font-bold text-white transition-all duration-200 bg-gray-900 border border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 font-pj hover:bg-gray-600 rounded-xl" role="button">$95 Per Student</a>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+</section>
+
+    <script src="//unpkg.com/alpinejs" defer></script>
+</body>
+</html>
